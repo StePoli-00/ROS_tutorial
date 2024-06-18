@@ -12,7 +12,7 @@ msg/*ActionResult.msg
 msg/*Feedback.msg
 msg/*Goal.msg
 msg/*Result.msg
-msg/_*.py
+# msg/_*.py
 build_isolated/
 devel_isolated/
 
@@ -32,7 +32,7 @@ devel_isolated/
 # qcreator stuff
 CMakeLists.txt.user
 
-srv/_*.py
+# srv/_*.py
 *.pcd
 *.pyc
 qtcreator-*
