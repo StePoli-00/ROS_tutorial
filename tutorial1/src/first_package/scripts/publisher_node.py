@@ -18,6 +18,7 @@ def talk_to_me():
         # msg="Hello Stefano %s" % rospy.get_time()
         msg=position()
         msg.message="My position is: "
+        
         msg.x=2.0
         msg.y=1.5
         #publish the message
