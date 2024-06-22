@@ -7,7 +7,7 @@ def callback(request):
 def multiply():
     rospy.init_node("multplier_service")
     #1=name of the service, #2=type of service,#3=callback function to call
-    service=rospy.Service("multiplier",multiplier,multiplierResponse)
+    service=rospy.Service("multiplier",multiplier,callback)
     rospy.spin()
 
 if __name__=="__main__":
